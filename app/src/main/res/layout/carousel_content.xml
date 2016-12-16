@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exsample.yamada.mycarousel.CarouselContentView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/carousel_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.2"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/carousel_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="8"
+        android:textColor="@android:color/white"
+        android:textSize="23dp"
+        android:textStyle="bold"/>
+
+</exsample.yamada.mycarousel.CarouselContentView>
